@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  background-color: lightpink;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100vw;
+
+  overflow: hidden;
+  font-family: "Labrada";
+}
+
+.container {
+  border: 3px solid red;
+  background: linear-gradient(#248, #645cbb 50%, #eee 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 2em;
+  margin-top: 6em;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5em auto;
+  cursor: pointer;
+  margin: 2em auto;
+}
+
+button:hover {
+  background-color: aqua;
+  transition: 0.5s;
+}
+#count-el {
+  color: white;
+}
+h1 {
+  color: white;
+}
